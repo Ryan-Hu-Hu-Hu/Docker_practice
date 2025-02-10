@@ -21,7 +21,7 @@ git submodule add https://github.com/docker/getting-started-todo-app Implementat
 cd getting-started-todo-app
 docker compose watch
 ```
-If using VS Code or Cursor to run the above code on the remote server, you will find the docker has successfully ran but you can't open the GUI. This is due to the X-forwarding isssue between server and local computer
+If using VS Code or Cursor to run the above code on the remote server, you will find the docker has successfully ran but you can't open the GUI. This is due to the porting isssue between server and local computer
 The follwing procedures show how to develope container in VS-Code-like environment
 1. Install the **Dev Containers** extension (supposed you have installed
 **Remote - SSH** extension and setup the ssh tunnel on your remote server)
@@ -34,6 +34,5 @@ The follwing procedures show how to develope container in VS-Code-like environme
 
 
 # Reference
-https://docs.docker.com/get-started/introduction/develop-with-containers/
-
-https://code.visualstudio.com/docs/remote/ssh
+1.https://docs.docker.com/get-started/introduction/develop-with-containers/
+2.https://code.visualstudio.com/docs/remote/ssh
