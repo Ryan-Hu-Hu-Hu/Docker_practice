@@ -24,5 +24,9 @@
 `docker rm $(docker ps -a -q)`  
 ### Kill all the container with force   
 `docker rm $(docker ps -a -q) -f`  
+## Copy file from local file system into container
+`docker cp <src-path> <container>:<dest-path> `
+## Copy file from container into local file system
+`docker cp <container>:<src-path> <local-dest-path>`
 
 
