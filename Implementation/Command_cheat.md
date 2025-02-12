@@ -28,5 +28,11 @@
 `docker cp <src-path> <container>:<dest-path> `
 ## Copy file from container into local file system
 `docker cp <container>:<src-path> <local-dest-path>`
+## Enter container
+`docker exec [OPTIONS] CONTAINER COMMAND [ARG...]`
+`docker exec -it <Container ID> bash`
+### Enter as root user
+`docker exec -u root -it <Container ID> bash`
+
 
 
